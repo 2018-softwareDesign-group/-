@@ -1,4 +1,4 @@
-# frontmanager
+# adminmanager
 
 ## Project setup
 ```
