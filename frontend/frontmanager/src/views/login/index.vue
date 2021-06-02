@@ -114,7 +114,7 @@
 </template>
 
 <script>
-import { register } from '@/../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/user'
+import { register } from '@/api/user'
 export default {
   name: 'Login',
   data() {

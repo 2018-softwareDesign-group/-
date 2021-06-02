@@ -50,7 +50,7 @@
 
 <script>
 import PanThumb from '@/components/PanThumb'
-import { getUserProbability } from '@/../../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/record'
+import { getUserProbability } from '@/api/record'
 export default {
   components: { PanThumb },
   props: {

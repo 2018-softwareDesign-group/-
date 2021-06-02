@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import { addAdmin } from '@/../../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/user'
+import { addAdmin } from '@/api/user'
 export default {
   name: 'AddAdminForm',
   data() {

@@ -137,7 +137,7 @@
 import BuildingAddForm from './components/BuildingAddForm'
 import AdminCleanerTable from './components/AdminCleanerTable'
 import AdminSearcher from './components/AdminSearcher'
-import { addCleaner, delCleaner } from '@/../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/cleaner'
+import { addCleaner, delCleaner } from '@/api/cleaner'
 import {
   getBuildings,
   delBuilding,
@@ -145,7 +145,7 @@ import {
   getCleanerTableData,
   addAdminToBuilding,
   removeBuildingAdmin
-} from '@/../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/building'
+} from '@/api/building'
 export default {
   name: 'buildingManage',
   components: {

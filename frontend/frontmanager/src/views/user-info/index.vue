@@ -95,7 +95,7 @@ import GroupSelector from '@/components/GroupSelector'
 import StudentSearcher from './components/StudentSearcher'
 import PanelGroup from './components/PanelGroup'
 
-import { getStudentInfoByIdOrAccount } from '@/../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/user'
+import { getStudentInfoByIdOrAccount } from '@/api/user'
 export default {
   name: 'UserInfo',
   components: {

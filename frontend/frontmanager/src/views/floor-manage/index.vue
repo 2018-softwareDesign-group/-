@@ -29,9 +29,9 @@
 <script>
 import GroupSelector from '@/components/GroupSelector'
 import FloorInfoCard from './components/FloorInfoCard'
-import { getCleanerTableData } from '@/../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/building'
+import { getCleanerTableData } from '@/api/building'
 
-import { getFloorsDetail } from '@/../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/floor'
+import { getFloorsDetail } from '@/api/floor'
 export default {
   name: 'floorManage',
   components: {

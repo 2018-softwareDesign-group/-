@@ -1,7 +1,8 @@
 {
   "name": "frontmanager",
   "version": "0.1.0",
-  "private": true,
+  "description": "A magical vue admin. An out-of-box UI solution for enterprise applications. Newest development stack of vue. Lots of awesome features",
+  "author": "Vanadylxu <Vanadylxu@sjtu.edu.cn>",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build:prod": "vue-cli-service build",
@@ -58,7 +59,7 @@
     "nprogress": "0.2.0",
     "path-to-regexp": "2.4.0",
     "screenfull": "4.2.0",
-    "showdown": "1.9.0",
+    "showdown": "1.9.1",
     "sortablejs": "1.8.4",
     "tui-editor": "1.3.3",
     "v-charts": "^1.19.0",

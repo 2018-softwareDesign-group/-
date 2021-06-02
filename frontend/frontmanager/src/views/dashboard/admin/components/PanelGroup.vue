@@ -72,7 +72,7 @@
 
 <script>
 import CountTo from 'vue-count-to'
-import { getBuildingInfo } from '@/../../../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/building'
+import { getBuildingInfo } from '@/api/building'
 
 export default {
   components: {

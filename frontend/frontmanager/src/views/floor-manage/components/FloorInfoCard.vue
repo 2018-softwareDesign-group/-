@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import { addCleanerToFloor } from '@/../../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/floor'
+import { addCleanerToFloor } from '@/api/floor'
 export default {
   name: 'FloorInfoCard',
   data() {

@@ -26,7 +26,7 @@
 
 <script>
 import RoomSelector from '@/components/RoomSelector/index'
-import { updateInfo } from '@/../../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/user'
+import { updateInfo } from '@/api/user'
 
 export default {
   name: 'student-guide',

@@ -24,7 +24,7 @@ import RecordSelector from './components/RecordSelector'
 import RecordTable from '@/components/RecordTable'
 import Pagination from '@/components/Pagination'
 
-import { getRecordTableData } from '@/../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/record'
+import { getRecordTableData } from '@/api/record'
 import { deepClone } from '@/utils'
 export default {
   name: 'backRecordManage',

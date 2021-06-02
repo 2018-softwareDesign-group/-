@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import { updateInfo } from '@/../../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/user'
+import { updateInfo } from '@/api/user'
 export default {
   data() {
     return {

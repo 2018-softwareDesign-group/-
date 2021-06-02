@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import { removeEvaluate } from '@/../../../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/evaluate'
+import { removeEvaluate } from '@/api/evaluate'
 export default {
   data() {
     return {}

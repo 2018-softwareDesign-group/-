@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import { addBuildingWithRoom } from '@/../../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/building'
+import { addBuildingWithRoom } from '@/api/building'
 export default {
   name: 'BuildingAddForm',
   data() {

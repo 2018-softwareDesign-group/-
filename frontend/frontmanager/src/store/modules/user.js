@@ -1,7 +1,7 @@
-import { login, getInfo } from '@/../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/user'
+import { login, getInfo } from '@/api/user'
 import { getToken, setToken, removeToken } from '@/utils/auth'
 import router, { resetRouter } from '@/router'
-import { getManageBuildings } from '@/../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/building'
+import { getManageBuildings } from '@/api/building'
 
 const state = {
   allUserInfo: {},

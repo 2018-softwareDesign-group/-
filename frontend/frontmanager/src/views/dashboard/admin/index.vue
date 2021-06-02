@@ -54,7 +54,7 @@
 <script>
 import PanelGroup from './components/PanelGroup'
 import RecordTable from '@/components/RecordTable'
-import { getRecordTableData } from '@/../../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/record'
+import { getRecordTableData } from '@/api/record'
 export default {
   name: 'AdminDashboard',
   components: {

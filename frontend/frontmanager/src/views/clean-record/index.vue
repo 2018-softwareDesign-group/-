@@ -27,7 +27,7 @@
 import RecordButton from './component/RecordButton'
 import RecordList from './component/RecordList'
 import Table from './component/Table'
-import { getUserRecords, addRecord, getRoomRecords } from '@/../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/record'
+import { getUserRecords, addRecord, getRoomRecords } from '@/api/record'
 export default {
   name: 'CleanRecord',
   components: {

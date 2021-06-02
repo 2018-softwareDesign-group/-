@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import { searchAdmin } from '@/../../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/user'
+import { searchAdmin } from '@/api/user'
 export default {
   name: 'AdminSearcher',
   model: {

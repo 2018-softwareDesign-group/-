@@ -19,8 +19,8 @@
 import PanelGroup from './components/PanelGroup'
 import StudentList from './components/StudentList'
 import Evaluates from './components/Evaluates'
-import { getStudents } from '@/../../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/user'
-import { getEvaluates } from '@/../../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/evaluate'
+import { getStudents } from '@/api/user'
+import { getEvaluates } from '@/api/evaluate'
 export default {
   name: 'Info',
   components: {

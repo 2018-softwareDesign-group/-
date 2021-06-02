@@ -29,7 +29,7 @@
 import RecordButton from './component/RecordButton'
 import RecordList from './component/RecordList'
 import Chart from './component/Chart'
-import { getUserRecords, addRecord, getLineChartData } from '@/../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/record'
+import { getUserRecords, addRecord, getLineChartData } from '@/api/record'
 export default {
   name: 'GetupRecord',
   components: {

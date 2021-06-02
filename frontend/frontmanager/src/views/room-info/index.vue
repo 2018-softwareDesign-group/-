@@ -62,8 +62,8 @@ import PanelGroup from './components/PanelGroup'
 import StudentsTable from './components/StudentsTable'
 import Evaluates from '../dashboard/student/components/Evaluates'
 
-import { getRoomInfo } from '@/../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/room'
-import { getEvaluates, addEvaluate } from '@/../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/evaluate'
+import { getRoomInfo } from '@/api/room'
+import { getEvaluates, addEvaluate } from '@/api/evaluate'
 export default {
   name: 'RoomInfo',
   components: {

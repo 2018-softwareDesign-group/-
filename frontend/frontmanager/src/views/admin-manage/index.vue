@@ -35,7 +35,7 @@
 import AddAdminForm from './components/AddAdminForm'
 import AdminTable from './components/AdminTable'
 
-import { getAdminTableData } from '@/../../../../../../DormitoryManageSystem/frontend/frontmanager/src/api/user'
+import { getAdminTableData } from '@/api/user'
 export default {
   name: 'adminManage',
   components: {
